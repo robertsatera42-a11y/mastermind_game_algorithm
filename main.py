@@ -11,7 +11,6 @@ amount_of_turns = 0
 def random_combination(list_of_colours, amount_of_spaces, hidden_combination_list):
     for i in range(amount_of_spaces):
         hidden_combination_list.append(random.choice(list_of_colours))
-
     print(hidden_combination_list)
 
 def answer_function(user_guess_list, hidden_combination_list):
